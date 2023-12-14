@@ -1,0 +1,50 @@
+div {
+    background-color: var(--pri-black);
+    color: var(--pri-white);
+}
+
+ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li { 
+    display: inline-block;
+}
+
+.navbar1-user-btn {
+    float: right;
+}
+
+a { 
+    text-decoration: none;
+    
+    display: block;
+    color: var(--pri-white);
+    transition: background-color 0.3s;
+}
+
+.navbar1-container a {
+    padding: 8px 15px;
+    background-color: var(--pri-black);
+}
+
+.navbar1-container a:hover {
+    background-color: var(--hvr-pri-back);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navbar1-container li a.logo:hover {
+    background-color: var(--pri-black);
+    color: var(--pri-white);
+}
+
+a.logo {
+    font-weight: bold;
+}
