@@ -1,0 +1,15 @@
+.custom-search-icon {
+    background-color: #fff;
+    border: none; 
+    margin-left: 0.75rem;
+}
+
+.flatinput{
+    border: none;
+    padding-left: 0;
+}
+
+.flatinput:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}

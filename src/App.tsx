@@ -1,12 +1,14 @@
-import './App.css'
-import Navbar2 from './components/navbar2'
-import Navbar1 from './components/navbar1'
+import './App.scss';
+import NavbarComponent from './components/navbar'
+
 
 function App() {
   return (
     <>
-    <Navbar1 />
-    <Navbar2 />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    </link>
+    <NavbarComponent />
     </>
   )
 }
